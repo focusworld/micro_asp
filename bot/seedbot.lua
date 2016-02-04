@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {157187288,179286096,100462843,2,tonumber(our_id)},--Sudo users
+    sudo_users = {157187288,179286096,100462843,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[telefocus - Open Source
