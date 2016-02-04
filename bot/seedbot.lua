@@ -226,7 +226,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {157187288,179286096,100462843,3,tonumber(our_id)},--Sudo users
+    sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[telefocus - Open Source
@@ -237,13 +237,13 @@ https://github.com/focusworld/focus_asp
 Admins
 @mamaligod [Founder]
 @mamaligodem [Developer]
-@hasalll [Developer]
+@xxx_sargardan_xxx [Developer]
 
 Special thanks to
 mamali
 kimia
 shervin
-hasan khatar
+abi joker
 
 Our channels
 @focusteam [persian]
