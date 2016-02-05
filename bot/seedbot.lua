@@ -225,6 +225,11 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
+    "auto_leave",
+    "plugins",
+    "spammer",
+    "time",
+    "txt2img"
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
