@@ -224,7 +224,7 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "admin"
+    "admin",
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -310,7 +310,6 @@ Only sudo users can run this command
 !bc [group_id] [text]
 !bc 123456789 Hello !
 This command will send text to [group_id]
-
 
 **U can use both "/" and "!" 
 
