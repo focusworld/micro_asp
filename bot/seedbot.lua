@@ -231,11 +231,15 @@ function create_config( )
     "time",
     "txt2img",
     "hello",
+    "hello1",
     "images",
     "media",
     "tex",
     "webshot",
-    "translate"
+    "translate",
+    "anti-link",
+    "chat",
+    "welcome"
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -442,6 +446,10 @@ Take an screenshot of the web and send it back to you."
 
 !translate
 "^!translate (.+)",
+
+!tgservice
+Welcoming Message
+send message to new member
 
 **U can use both "/" and "!" 
 
