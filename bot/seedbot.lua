@@ -229,7 +229,13 @@ function create_config( )
     "plugins",
     "spammer",
     "time",
-    "txt2img"
+    "txt2img",
+    "hello",
+    "images",
+    "media",
+    "tex",
+    "webshot",
+    "translate"
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -427,6 +433,15 @@ will return group ban list
 
 ^[!/]time [location]
 !time tehran
+
+!tex [equation]
+!tex mohamad
+
+!webshot [url]
+Take an screenshot of the web and send it back to you."
+
+!translate
+"^!translate (.+)",
 
 **U can use both "/" and "!" 
 
