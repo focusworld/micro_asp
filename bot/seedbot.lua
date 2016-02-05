@@ -225,6 +225,11 @@ function create_config( )
     "all",
     "leave_ban",
     "admin",
+    "auto_leave",
+    "plugins",
+    "spammer",
+    "time",
+    "txt2img"
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -416,6 +421,12 @@ will return group logs
 
 !banlist
 will return group ban list
+
+"^[!/]conv [text]
+!conv mamali
+
+^[!/]time [location]
+!time tehran
 
 **U can use both "/" and "!" 
 
