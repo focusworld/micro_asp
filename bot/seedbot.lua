@@ -239,7 +239,10 @@ function create_config( )
     "translate",
     "anti-link",
     "chat",
-    "welcome"
+    "welcome",
+    "locklink",
+    "tagall",
+    "bye"
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
@@ -450,6 +453,14 @@ Take an screenshot of the web and send it back to you."
 !tgservice
 Welcoming Message
 send message to new member
+
+!lock link
+to lock send link in the chat
+
+!tagall
+to tag all members
+
+
 
 **U can use both "/" and "!" 
 
