@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return 'Umbrella Telegram Bot v1.5'.. [[ 
+  return 'focus Telegram Bot v1.5'.. [[ 
   
   
   Antispam Bot: @focus_asp
