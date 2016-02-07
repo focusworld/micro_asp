@@ -242,7 +242,8 @@ function create_config( )
     "welcome",
     "locklink",
     "tagall",
-    "bye"
+    "bye",
+    "info_fa"
     },
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
