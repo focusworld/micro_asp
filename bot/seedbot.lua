@@ -248,9 +248,8 @@ function create_config( )
     sudo_users = {157187288,179286096,174602122,3,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[telefocus - Open Source
+    about_text = [[micro_asp - Open Source
 An advance Administration bot based on yagop/telegram-bot 
-https://github.com/focusworld/focus_asp
 Admins
 @mamaligod [Founder]
 @mamaligodem [Developer]
@@ -261,7 +260,7 @@ kimia
 shervin
 abi joker
 Our channels
-@focusteam [persian]
+@soon [persian]
 ]],
     help_text_realm = [[
 Realm Commands:
